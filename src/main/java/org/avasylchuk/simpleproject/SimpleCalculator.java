@@ -22,5 +22,9 @@ public class SimpleCalculator {
         return a / b;
     }
 
+    public static double power(int base, int exponent) {
+        return Math.pow(base, exponent);
+    }
+
 }
 

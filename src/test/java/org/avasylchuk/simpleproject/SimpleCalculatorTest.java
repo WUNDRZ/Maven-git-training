@@ -32,4 +32,11 @@ public class SimpleCalculatorTest {
         assertEquals(-1, SimpleCalculator.divide(-5, 5));
     }
 
+    @Test
+    public void testPower() {
+        assertEquals(8, SimpleCalculator.power(2, 3));
+        assertEquals(1, SimpleCalculator.power(5, 0));
+        assertEquals(0.25, SimpleCalculator.power(2, -2));
+    }
+
 }
